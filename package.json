@@ -1,0 +1,19 @@
+{
+  "name": "aws-transcirbe-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/eventstream-marshaller": "^3.6.1",
+    "@aws-sdk/util-utf8-node": "^3.6.1",
+    "microphone-stream": "^5.3.1",
+    "query-string": "^6.14.1",
+    "ws": "^7.4.4"
+  }
+}
